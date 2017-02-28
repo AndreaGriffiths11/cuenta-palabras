@@ -1,0 +1,2 @@
+# cuenta-palabras
+plugin
