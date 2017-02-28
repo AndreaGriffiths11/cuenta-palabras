@@ -1,10 +1,9 @@
 {
   "name": "cuenta-palabras",
   "main": "./lib/cuenta-palabras",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Un plugin para contar el numero de palabras en tu texto",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "cuenta-palabras:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
