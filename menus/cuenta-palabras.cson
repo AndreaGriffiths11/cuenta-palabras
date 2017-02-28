@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle cuenta-palabras'
+      'command': 'cuenta-palabras:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'cuenta-palabras'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'cuenta-palabras:toggle'
+        }
+      ]
+    ]
+  }
+]
